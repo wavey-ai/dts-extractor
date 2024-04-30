@@ -1,0 +1,9 @@
+[package]
+name = "dts-extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1.6.0"
+h264 = { git = "https://github.com/wavey-ai/av-rs.git" }
+au = { git = "https://github.com/wavey-ai/au.git" }
