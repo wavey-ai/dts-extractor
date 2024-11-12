@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 bytes = "1.6.0"
-h264 = { git = "https://github.com/wavey-ai/av-rs.git" }
-au = { git = "https://github.com/wavey-ai/au.git" }
+h264 = { git = "ssh://git@github.com/wavey-ai/av-rs.git" }
+au = { path = "../au" }
